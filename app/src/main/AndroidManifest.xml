@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yemekler">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.yemekler.About" />
+        <activity android:name="com.example.yemekler.YemekEkle" />
+        <activity android:name="com.example.yemekler.asci.AsciYemekleri" />
+        <activity android:name="com.example.yemekler.Yemek" />
+        <activity android:name="com.example.yemekler.asci.AsciLogin" />
+        <activity android:name="com.example.yemekler.asci.AsciHomePage" />
+        <activity android:name="com.example.yemekler.admin.AdminHomePage" />
+        <activity android:name="com.example.yemekler.admin.AdminLogin" />
+        <activity
+            android:name="com.example.yemekler.uye.UyeYemekSec"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.yemekler.KayitSayfasi" />
+        <activity android:name="com.example.yemekler.uye.UyeLogin" />
+        <activity android:name="com.example.yemekler.KayitGiris" />
+        <activity android:name="com.example.yemekler.YemekGoster" />
+        <activity android:name="com.example.yemekler.uye.UyeHomePage" />
+        <activity android:name="com.example.yemekler.asci.AsciSiparisler" />
+        <activity android:name="com.example.yemekler.asci.AsciProfil" />
+        <activity android:name="com.example.yemekler.uye.UyeSiparisler" />
+        <activity android:name="com.example.yemekler.uye.UyeProfil" />
+        <activity android:name="com.example.yemekler.admin.AdminProfil" />
+        <activity android:name="com.example.yemekler.admin.Uyeler" />
+        <activity android:name="com.example.yemekler.admin.Ascilar" />
+        <activity android:name="com.example.yemekler.asci.AsciCuzdan" />
+        <activity android:name="com.example.yemekler.SifreHatirlat" />
+        <activity android:name="com.example.yemekler.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

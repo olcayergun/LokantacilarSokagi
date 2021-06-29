@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Yemekler</string>
+    <string name="title_activity_home_page">Ana Sayfa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_home">Anasayfa</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_slideshow">Resimler</string>
+    <string name="menu_tools">Araçlar</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_send">Gönder</string>
+    <string name="title_activity_place_order">SiparişVerEkranı</string>
+    <string name="Isim_Girin">İsminizi veya telefon numarınızı girin.</string>
+    <string name="Kullanici_İsim_Girin">Kullanıcı isminizi veya tel. no girin.</string>
+    <string name="Telefon_Girin">Telefon numaranızı girin.</string>
+    <string name="Sifre_Girin">Şifrenizi girin.</string>
+    <string name="Hesap_Yaratildi">Hesap yaratıldı.</string>
+    <string name="Giris">Üye Olarak Giriş</string>
+    <string name="Asci_Giris">Aşcı Olarak Giriş</string>
+    <string name="Admin_Giris">Admin Olarak Girişi</string>
+    <string name="Hatali_Giris">Hatalı Girişi</string>
+    <string name="Merhaba">Merhaba</string>
+    <string name="Siparis_Alindi">Siparişiniz alındı.!</string>
+    <string name="a_c_y_m">Aşcıyım</string>
+    <string name="yemek_ismi">Yemek İsmi</string>
+    <string name="yemek_adedi">Adedi</string>
+    <string name="siparis_adedi">Sipariş Adedi</string>
+    <string name="yemek_ekle">Yemek Ekle</string>
+    <string name="yemek_icerigi">Yemeğin İçeriği</string>
+    <string name="yemek_fiyat">Fiyatı</string>
+    <string name="siparis_ver">Siparişi Ver</string>
+    <string name="Isimsiz">İsimsiz</string>
+
+</resources>

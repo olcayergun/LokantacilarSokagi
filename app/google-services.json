@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "589213402630",
+    "firebase_url": "https://yemeklerascilar-b4b43-default-rtdb.firebaseio.com",
+    "project_id": "yemeklerascilar-b4b43",
+    "storage_bucket": "yemeklerascilar-b4b43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589213402630:android:325afeb082317f9a52e587",
+        "android_client_info": {
+          "package_name": "com.example.yemekler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589213402630-t0acfu5jds84f34k1af22deil0aqr6no.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXOwER1w0DyVs7fAtI81buOh_PEiUnzog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589213402630-t0acfu5jds84f34k1af22deil0aqr6no.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

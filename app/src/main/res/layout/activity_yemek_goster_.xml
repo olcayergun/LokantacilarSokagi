@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constratLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etbAsciAdresi"
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="none"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdateStock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Adresi :"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Aşcı :"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Teslimat Şekli:"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdateStock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <EditText
+        android:id="@+id/etbAsci"
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="none"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdateStock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Adedi:"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFiyat"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="İçeriği:"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <EditText
+        android:id="@+id/etIsim"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/yemek_ismi"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textColorHint="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/edLabel1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <EditText
+        android:id="@+id/edLabel1"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="İsim:"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <EditText
+        android:id="@+id/etIcerigi"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/yemek_icerigi"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textColorHint="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="180dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Fiyatı:"
+        android:textColor="#665A7C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <EditText
+        android:id="@+id/etFiyat"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/yemek_fiyat"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textColorHint="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <EditText
+        android:id="@+id/etAdedi"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/yemek_adedi"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textColorHint="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/btnUpdateStock"
+        android:layout_width="360dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/siparis_ver"
+        android:textColor="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884">
+
+        <RadioButton
+            android:id="@+id/rbEveTeslim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eve Teslim"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/rbGelAl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gel Al"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivGosterYemek"
+        android:layout_width="201dp"
+        android:layout_height="176dp"
+        android:src="@drawable/applogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

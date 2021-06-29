@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Yemek Adı :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecAdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Yemek İçeriği :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecIcerigi"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Yemek Fiyatı :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecFiyat"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Yemek Puanıı :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecPuani"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_uyeYemekSecResim"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/applogo" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Aşcı Adı :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecAsciAdi"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Aşcı Adresi :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecAsciAdresi"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecBoşluk"
+                android:layout_width="303dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Yemek Miktarı :"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uyeYemekSecMiktari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Miktar girin."
+                android:inputType="number"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:text="Teslim Şekli :"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rb_uyeYemekSecGelAl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GelAl"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_uyeYemekSecEveTeslim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eve Teslim"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_uyeYemekSec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SİPARİŞİ VER"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
